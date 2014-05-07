@@ -22,9 +22,9 @@ class ArrayKeyFilterTest extends \PHPUnit_Framework_TestCase
      */
     public function testFilterByPattern(array $expected, array $data, $pattern)
     {
-        $arrayKeyFilter = new ArrayKeyFilter($data);
+        $filter = new ArrayKeyFilter($data);
 
-        $this->assertEquals($expected, $arrayKeyFilter->filterByPattern($pattern));
+        $this->assertEquals($expected, $filter->filterByPattern($pattern));
     }
 
     public function getFilterByPatternData()
