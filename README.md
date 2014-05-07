@@ -4,6 +4,7 @@ Array filtering by key.
 
 ````
 use MarkWilson\ArrayKeyFilter;
+use MarkWilson\ArrayFiltering\ArrayFiltering;
 
 $myArray = [ ... ];
 
