@@ -2,7 +2,7 @@
     "name": "markwilson/array-key-filter",
     "description": "Array filtering by keys",
     "minimum-stability": "stable",
-    "license": "apache",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Mark Wilson",
